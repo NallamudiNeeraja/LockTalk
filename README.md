@@ -99,53 +99,28 @@ Decrypt Original Message
 
 ### 🔹 Encrypt Page
 
-<img src="screenshots/encrypt.png" width="800"/>
+<img src="screenshots/Encrpt.png" width="800"/>
 
 ---
 
-### 🔹 Encrypted Output
+### 🔹 Secret Message Page
 
-<img src="screenshots/encrypted.png" width="800"/>
+<img src="screenshots/Secret Message.png" width="800"/>
 
 ---
 
 ### 🔹 Decrypt Page
 
-<img src="screenshots/decrypt.png" width="800"/>
+<img src="screenshots/Decrpt.png" width="800"/>
 
 ---
 
-## 🚀 Installation
 
-### Frontend
-
-```bash
-npm install
-npm run dev
-```
-
-### Backend
-
-```bash
-mvn spring-boot:run
-```
-
----
-
-## 🌟 Future Enhancements
-
-* JWT Authentication
-* AES-256 Encryption
-* One-Time Secret Links
-* Message Expiration
-* Email Notifications
-
----
 
 ## 👩‍💻 Developed By
 
-### Komala
+### Neeraja
 
 💼 Full Stack Java Developer
 
-⭐ If you like this project, don't forget to give it a Star!
+
