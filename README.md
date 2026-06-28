@@ -1,16 +1,151 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🔐 LockTalk
 
-Currently, two official plugins are available:
+### Secure Message Encryption & Decryption Application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>
+A Full-Stack Web Application built with <b>React.js</b>, <b>Spring Boot</b>, and <b>Oracle Database</b>.
+</p>
 
-## React Compiler
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"/>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📖 About
+
+LockTalk is a secure web application that allows users to encrypt confidential messages with a password and decrypt them only using the correct password. It provides a simple and responsive interface for secure communication.
+
+---
+
+## ✨ Features
+
+✔️ Encrypt Secret Messages
+
+✔️ Password Protected Decryption
+
+✔️ Password Hint Support
+
+✔️ Responsive User Interface
+
+✔️ REST API Integration
+
+✔️ Oracle Database Storage
+
+---
+
+## 🛠 Tech Stack
+
+<table>
+<tr>
+<td><b>Frontend</b></td>
+<td>React.js, Vite, JavaScript, HTML5, CSS3, Axios</td>
+</tr>
+
+<tr>
+<td><b>Backend</b></td>
+<td>Java, Spring Boot, Spring Data JPA, Maven</td>
+</tr>
+
+<tr>
+<td><b>Database</b></td>
+<td>Oracle Database</td>
+</tr>
+
+<tr>
+<td><b>Tools</b></td>
+<td>Git, GitHub, VS Code, IntelliJ IDEA, Postman</td>
+</tr>
+
+</table>
+
+---
+
+## 🔄 Application Workflow
+
+```text
+User
+   │
+   ▼
+Enter Message + Password
+   │
+   ▼
+Spring Boot REST API
+   │
+   ▼
+Encrypt Message
+   │
+   ▼
+Oracle Database
+   │
+   ▼
+Encrypted Message Generated
+   │
+   ▼
+Recipient Enters Password
+   │
+   ▼
+Decrypt Original Message
+```
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Encrypt Page
+
+<img src="screenshots/encrypt.png" width="800"/>
+
+---
+
+### 🔹 Encrypted Output
+
+<img src="screenshots/encrypted.png" width="800"/>
+
+---
+
+### 🔹 Decrypt Page
+
+<img src="screenshots/decrypt.png" width="800"/>
+
+---
+
+## 🚀 Installation
+
+### Frontend
+
+```bash
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+mvn spring-boot:run
+```
+
+---
+
+## 🌟 Future Enhancements
+
+* JWT Authentication
+* AES-256 Encryption
+* One-Time Secret Links
+* Message Expiration
+* Email Notifications
+
+---
+
+## 👩‍💻 Developed By
+
+### Komala
+
+💼 Full Stack Java Developer
+
+⭐ If you like this project, don't forget to give it a Star!
