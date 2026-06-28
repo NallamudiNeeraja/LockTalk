@@ -59,7 +59,7 @@ LockTalk is a secure web application that allows users to encrypt confidential m
 
 <tr>
 <td><b>Tools</b></td>
-<td>Git, GitHub, VS Code, IntelliJ IDEA, Postman</td>
+<td> GitHub, VS Code, IntelliJ IDEA, </td>
 </tr>
 
 </table>
